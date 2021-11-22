@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Snake game in progress!"](snakeScreenshot.png)
+!["Snake game in progress!"](./images/snakeScreenshot.png)
 
 
 ## Getting Started
