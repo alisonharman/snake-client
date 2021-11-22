@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Snake game in progress!"](https://www.dropbox.com/s/fm5eya2fj7i4s90/Screen%20Shot%202021-11-22%20at%209.16.12%20AM.png?dl=0)
+!["Snake game in progress!"](Snake game in progress.png)
 
 
 ## Getting Started
