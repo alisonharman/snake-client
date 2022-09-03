@@ -11,6 +11,16 @@ const connect = function() {
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
+  // for broadcasting function
+  const broadcastMessage= (client, data, list) => {
+    list.forEach(
+        member => {
+            if (member !== client) member.write(`from server: ${data}`)
+        }
+    )
+}
+
+
   //  "connect" event triggered when connection is first established
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
